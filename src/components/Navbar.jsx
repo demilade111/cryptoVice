@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="logo-container">
        
-        <Typography.Title level={2} className="logo"><Link to="/">Cryptovice</Link></Typography.Title>
+       
         <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
